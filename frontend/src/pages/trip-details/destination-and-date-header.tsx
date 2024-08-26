@@ -21,7 +21,7 @@ export function DestinationAndDateHeader() {
     api.get(`trips/${tripId}`).then(response => setTrip(response.data.trip))
   }, [tripId])
 
-  const displayedDate = trip ? format(trip.starts_at, "d' de 'LLL").concat(' até ').concat(format(trip.ends_at, "d' de 'LLL"))
+  const displayedDate = trip ? format(trip.starts_at, "d' from 'LLL").concat(' to ').concat(format(trip.ends_at, "d' to the 'LLL"))
   : null
 
   return (
@@ -40,7 +40,7 @@ export function DestinationAndDateHeader() {
           <div className="w-px h-6 bg-zinc-800" />
 
           <Button variant="secondary">
-            Alterar local/data
+            Change location/date
             <Settings2 className="size-5" />
           </Button>
         </div>

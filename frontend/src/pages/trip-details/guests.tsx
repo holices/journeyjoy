@@ -21,13 +21,13 @@ export function Guests() {
 
   return (
     <div className="space-y-6">
-      <h2 className="font-semibold text-xl">Convidados</h2>
+      <h2 className="font-semibold text-xl">Guests</h2>
 
       <div className="space-y-5">
         {participants.map((participant, index) => (
           <div key={participant.id} className="flex items-center justify-between gap-4">
             <div className="space-y-1.5">
-              <span className="block font-medium text-zinc-100">{participant.name ?? `Convidado ${index}`}</span>
+              <span className="block font-medium text-zinc-100">{participant.name ?? `Guest ${index}`}</span>
               <span className="block text-sm text-zinc-400 truncate">
                 {participant.email}
               </span>
@@ -44,7 +44,7 @@ export function Guests() {
 
       <Button variant="secondary" size="full">
         <UserCog className="size-5" />
-        Gerenciar convidados
+        Manage guests
       </Button>
     </div>
   )

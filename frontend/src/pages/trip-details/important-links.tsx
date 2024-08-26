@@ -4,11 +4,11 @@ import { Button } from "../../components/button";
 export function ImportantLinks() {
   return (
     <div className="space-y-6">
-      <h2 className="font-semibold text-xl">Links importantes</h2>
+      <h2 className="font-semibold text-xl">Important links</h2>
       <div className="space-y-5">
         <div className="flex items-center justify-between gap-4">
           <div className="space-y-1.5">
-            <span className="block font-medium text-zinc-100">Reserva do AirBnB</span>
+            <span className="block font-medium text-zinc-100">AirBnB booking</span>
             <a href="#" className="block text-xs text-zinc-400 truncate hover:text-zinc-200">
               https://www.airbnb.com.br/321753746732647382461i2738126378214671982
             </a>
@@ -20,7 +20,7 @@ export function ImportantLinks() {
       <div className="space-y-5">
         <div className="flex items-center justify-between gap-4">
           <div className="space-y-1.5">
-            <span className="block font-medium text-zinc-100">Reserva do AirBnB</span>
+            <span className="block font-medium text-zinc-100">AirBnB booking</span>
             <a href="#" className="block text-xs text-zinc-400 truncate hover:text-zinc-200">
               https://www.airbnb.com.br/321753746732647382461i2738126378214671982
             </a>
@@ -30,7 +30,7 @@ export function ImportantLinks() {
       </div>
       <Button variant="secondary" size="full">
         <Plus className='size-5' />
-        Cadastrar novo link
+        Register new link
       </Button>
     </div>
   )
