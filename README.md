@@ -35,7 +35,7 @@ $ git clone git@github.com:holices/journeyjoy
 
 <br>
 
-### 2. With the project open in an IDE, navigate to the API directory and run the commands:
+### 2. With the project open in an IDE, navigate to the BACKEND directory and run the commands:
 
 ```bash
 # Install the packages needed to run the project
@@ -49,7 +49,7 @@ $ npm run dev
 
 <br>
 
-### 3. Now go back to the root directory and access the MYNOTES folder and run it:
+### 3. Now go back to the root directory and access the FRONTEND folder and run it:
 
 ```bash
 # Install the packages needed to run the project
