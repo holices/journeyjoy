@@ -30,7 +30,7 @@ With Jorneyoy, you can plan your group trip and give all members access to the t
 ### 1. Clone the project to your computer.
 
 ```bash
-$ git clone git@github.com:holices/food-explorer
+$ git clone git@github.com:holices/journeyjoy
 ```
 
 <br>
